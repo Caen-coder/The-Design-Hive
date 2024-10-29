@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Persons Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .case {
+            background: #f4f4f4;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Missing Persons Awareness</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#cases">Cases</a></li>
+                <li><a href="#report">Report a Case</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to raising awareness about missing persons and providing support to families. Our mission is to help reunite families and bring closure to those affected by the disappearance of their loved ones.</p>
+        </section>
+
+        <section id="cases">
+            <h2>Current Missing Cases</h2>
+            <div class="case">
+                <h3>Cathy Caen</h3>
+                <p>Last seen on January 15, 2023, in Kisumu. If you have any information, please contact us.</p>
+            </div>
+            <div class="case">
+                <h3>Caleb Avery</h3>
+                <p>Last seen on February 10, 2023, in Nairobi. Any leads are appreciated.</p>
+            </div>
+        </section>
+
+        <section id="report">
+            <h2>Report a Missing Person</h2>
+            <p>If you would like to report a missing person, please fill out our <a href="report.html">report form</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:info@missingpersons.org">info@missingpersons.org</a></p>
+            <p>Phone: 0735467890</p>
+        </section>
+        <p>&copy; 2024 Missing Persons Advocacy</p>
+    </footer>
+</body>
+</html>
